@@ -1,0 +1,15 @@
+{
+  "full_name": "Full name",
+  "email": "you@example.com",
+  "github_username": "gh_username",
+  "project_name": "Django Package",
+  "repo_name": "{{ cookiecutter.project_name.lower()|replace(' ', '-')|replace('_', '-') }}",
+  "app_name": "{{ cookiecutter.repo_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "app_class_name": "{{ cookiecutter.app_name.replace('_', ' ').replace('-', ' ')|title()|replace(' ', '') }}",
+  "project_short_description": "Project description",
+  "version": "0.1.0",
+  "_extensions": [
+    "jinja2_django_version.DjangoVersionExtension",
+    "jinja2_python_version.PythonVersionExtension"
+  ]
+}

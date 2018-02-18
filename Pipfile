@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+cookiecutter = "*"
+django = "*"
+jinja2_django_version = "*"
+jinja2_python_version = "*"
+
+
+[dev-packages]
+
+isort = "*"
+watchdog = "*"
