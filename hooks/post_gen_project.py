@@ -45,7 +45,7 @@ def generate_example_django_project():
     with open('{}/{}/settings.py'.format(project_directory, project_name), 'a') as settings_file:
         settings_file.write("""
 # Start: added by cookiecutter.
-INSTALLED_APPS.append('{{ cookiecutter.app_name }}')
+INSTALLED_APPS.append('{{ cookiecutter.app_name }}.apps.{{ cookiecutter.app_class_name }}Config')
 # End: added by cookiecutter.
 """)
 

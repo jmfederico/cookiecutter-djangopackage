@@ -21,7 +21,7 @@ The full documentation is at https://{{ cookiecutter.repo_name }}.readthedocs.io
 Quickstart
 ----------
 
-Install {{ cookiecutter.project_name }}::
+Install **{{ cookiecutter.project_name }}**::
 
     pip install {{ cookiecutter.repo_name }}
 
